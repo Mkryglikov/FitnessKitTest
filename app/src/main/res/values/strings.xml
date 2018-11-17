@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fitness Kit Test</string>
+    <string name="toolbar_main_title">Расписание</string>
+    <string name="no_network_message">Отсутствует подключение к интернету</string>
+    <string name="no_network_swipe_to_refresh_message">Отсутствует подключение к интернету.\n Потяните вниз для обновления</string>
+    <string name="no_trainings_message">На выбранный день не запланировано тренировок</string>
+</resources>
