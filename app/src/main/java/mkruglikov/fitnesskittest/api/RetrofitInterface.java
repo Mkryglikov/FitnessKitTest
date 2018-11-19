@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 
 interface RetrofitInterface {
 
-    @GET(" ")
+    @GET("schedule/get_group_lessons_v2/4")
     Call<List<Training>> getTrainings();
 }

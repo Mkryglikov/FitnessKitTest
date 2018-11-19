@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         setSupportActionBar(findViewById(R.id.toolbarMain));
 
         srlMain.setOnRefreshListener(this);
-
+        srlMain.setColorSchemeResources(R.color.colorAccent);
 
         List<Training> savedTrainings = new Gson().fromJson(sharedPreferences.getString(PREFS_TRAININGS_KEY, ""), new TypeToken<List<Training>>() {
         }.getType());
